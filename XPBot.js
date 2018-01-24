@@ -39,7 +39,7 @@ bot.on("message", msg => {
 	
 	console.log("Example")
 	if (msg.content.startsWith(prefix + "killExample")) {
-		userData.XP += 10
+		userData.XP ++
 		msg.channel.sendMessage(`${msg.author} has killed an Example!`)
 	}
 	
